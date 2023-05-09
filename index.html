@@ -74,7 +74,7 @@
                     <li><a href="#features">Attractions</a></li>
                     <li><a href="#facts">Fun Facts</a></li>
                     <li><a href="#food">Food</a></li>
-                    <li><a href="#team">When</a></li>
+                    <li><a href="#weather">Weather</a></li>
                 </ul>
             </nav>
             <!-- /main nav -->
@@ -98,6 +98,7 @@
 				<ol class="carousel-indicators">
 					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 				</ol>
 				<!-- End Indicators bullet -->				
 				
@@ -113,13 +114,21 @@
 					<!-- end single slide -->
 					
 					<!-- single slide -->
-					<div class="item" style="background-image: url(img/banner.jpg);">
+					<div class="item" style="background-image: url(images/chairs.jpg);">
 						<div class="carousel-caption">
 							<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Welcome to <span>Insel Fohr</span>!</h2>
 						</div>
 					</div>
 					<!-- end single slide -->
-					
+			
+
+                    <!-- single slide -->
+					<div class="item" style="background-image: url(images/windmill.png);">
+						<div class="carousel-caption">
+							<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Welcome to <span>Insel Fohr</span>!</h2>
+						</div>
+					</div>
+					<!-- end single slide -->
 				</div>
 				<!-- End Wrapper for slides -->
 				
@@ -146,7 +155,9 @@
 
                 <!-- service item -->
                 <div class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-                <h4 style="text-align: center;">There  </h4>
+                <h4 style="text-align: center;">Many locals rent out their homes, or their spare homes to the tourists to make 
+                extra money. They keep their homes in really good conditions and their are many hotels that offer an amazing 
+            view of the island and water. Most come with free wi-fi and are very close to the ocean.  </h4>
                 <center>
                 <div class="card-group">
                 <div class="card" style="width: 34rem;">
@@ -396,7 +407,7 @@
                     </p>
                 </div>
 
-                
+                <center>
                 <div class="card" style="width: 34rem;">
                         <img class="card-img-top" src="images/helgoland.png" alt="Card image cap" style="border-radius: 15%; 
                         padding: 5px; width: 34rem;">
@@ -441,14 +452,33 @@
             <div class="card-body">
             </div>
           </div>
-
+        </center>
                 
     </section>
 
     <!--
         End Contact Us
         ==================================== -->
+        <section id="weather" >
+            <div class="container">
 
+
+        <div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
+            <h2>Weather</h2>
+            <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+        </div>
+
+        <div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
+            <p>Insel Fohr has weather that can go all over the place, since it's in the North Sea. What I recomend? 
+                Packing an umbrella with your sunscreen!
+            </p>
+        </div>
+
+        <a class="weatherwidget-io" href="https://forecast7.com/en/51d1710d45/germany/?unit=us" data-label_1="GERMANY" data-label_2="WEATHER" data-theme="original" >GERMANY WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+    </section>
     <a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
 
     <!-- Essential jQuery Plugins
